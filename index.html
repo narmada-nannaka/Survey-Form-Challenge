@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Required Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title></title>
+  </head>
+  <body>
+    <!--Start of Container-->
+ <div class="container mx-auto">
+   <!--Start of heading -->
+   <div class="row">
+     <div class="col">
+       <h1 class="text-center" id="title">Yummy CupCake Order</h1>
+     </div>
+   </div>
+   <hr>
+   <div class="row">
+     <div class="col">
+       <p class="text-center font-weight-bold" id="description">Fill in the details to get your favourite cupcake delivered in no time.</p>
+     </div>
+   </div>
+   <!-- End of heading -->
+
+   <form id="survey-form" class="px-3 mx-3">
+     <div class="form-group">
+       <label for="name" id="name-label" class="font-weight-bold">Name</label>
+       <input type="text" class="form-control" id="name" placeholder="Enter name" required>
+     </div>
+     <div class="form-group">
+       <label for="email" id="email-label" class="font-weight-bold">Email Address</label>
+       <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+     </div>
+     <div class="form-group" >
+       <label for="number" id="number-label" class="font-weight-bold">How many cup cakes would you like to order?</label><br>
+       <input type="number" class="form-control" id="number" min="1" max="10" placeholder="Enter number of cupcakes">
+   </div>
+     <div class="form-group">
+       <label for="dropdown" class="font-weight-bold">Select a flavor</label>
+       <select class="form-control" id="dropdown">
+         <option>Vanilla</option>
+         <option>Chocolate</option>
+         <option>Strawberry</option>
+         <option>Coffee</option>
+         <option>Orange</option>
+       </select>
+     </div>
+
+     <div class="form-group">
+       <label class="font-weight-bold">Special Requests</label>
+               <div class="form-check">
+         <input class="form-check-input" type="radio" name="radios" id="radio1" value="vegan">
+         <label class="form-check-label" for="radio1">
+           Vegan
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="radios" id="radio2" value="Sugar">
+         <label class="form-check-label" for="radio2">
+           Sugar Free
+         </label>
+       </div>
+     </div>
+
+     <div class="form-group">
+       <label class="font-weight-bold">Extra Toppings </label>
+       <div class="form-check form-check-inline">
+<input class="form-check-input" type="checkbox" id="chocolate" value="chocolate">
+<label class="form-check-label" for="chocolate">Chocolate</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="checkbox" id="berries" value="berries">
+<label class="form-check-label" for="berries">Strawberries</label>
+</div>
+     </div>
+
+     <div class="form-group">
+       <label for="notes" class="font-weight-bold">Additional Notes</label>
+ <textarea class="form-control" id="notes" rows="3"></textarea>
+     </div>
+
+     <button type="submit" class="btn btn-primary btn-block font-weight-bold" id="submit">Submit</button>
+   </form>
+
+ <!--End of container -->
+ </div>
+
+ <!-- Bootstrap scripts -->
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+
+
+
+
+
+    <!-- Bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+</html>
